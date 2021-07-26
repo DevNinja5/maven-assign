@@ -6,6 +6,6 @@ public class Application {
         String name ="knoldus LLP";
         int size = StringFunctions.sizeofString(name);
         String reversed_string = StringFunctions.reverseString(name);
-        System.out.println(size+"\n"+reversed_string);
+        System.out.println("Size od string = "+size+"\nReversed String = "+reversed_string);
     }
 }
