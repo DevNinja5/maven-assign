@@ -1,11 +1,11 @@
 
 public class Application {
+
     public static void main(String[] args) {
-        StringFunctions obj = new StringFunctions();
-        String s ="abcd";
-        int x = StringFunctions.sizeofString(s);
-        String rev = StringFunctions.reverseString(s);
-        //int size = StringFunctions.sizeofString("jhvchjvcdhvchd");
-        System.out.println(x+"\n"+rev);
+        //StringFunctions class is from <string-api> sub-module
+        String name ="knoldus LLP";
+        int size = StringFunctions.sizeofString(name);
+        String reversed_string = StringFunctions.reverseString(name);
+        System.out.println(size+"\n"+reversed_string);
     }
 }
